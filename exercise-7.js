@@ -1,7 +1,7 @@
 // by Renaldy Pratama
 
 function hapusSimbol(str) {
-  var result = str.match(/[a-z0-9]+/gi);
+  var result = str.match(/[a-z0-9]+/g);
   return result.join('');
 }
 
